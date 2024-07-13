@@ -1,0 +1,69 @@
+.videopart-container{
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.videopart-hero{
+    height: 100%;
+    width: 68%;
+    
+}
+
+.future-vd{
+    height: 70%;
+    width: 100%;
+    background-image: url('../../../../Assets/vd.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.vd-heading{
+    height: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 0.8rem;
+    color: #0E007A;
+
+}
+
+.vd-button{
+    height: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.vdbtn
+{
+    height: 40px;
+    width: 140px;
+    border: none;
+    background-color: #7125FF;
+    color: #FFFFFF;
+    border-radius: 6px;
+}
+
+
+@media all and (max-width:700px){
+    .videopart-container{
+        height: 70vh;
+        margin-top: 50px;
+    }
+    .videopart-hero{
+        width: 90%;
+    }
+    .future-vd{
+        background-size: contain;
+    }
+    .vd-heading{
+        text-align: center;
+    }
+}

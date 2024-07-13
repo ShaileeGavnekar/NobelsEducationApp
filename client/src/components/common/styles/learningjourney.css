@@ -1,0 +1,197 @@
+.explore-container {
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: rgb(69, 18, 117);
+  margin-top: 50px;
+}
+
+.explore-hero {
+  width: 68%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.agegroups {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.ages {
+  width: 100px;
+  height: 40px;
+  background-color: #f4eeff;
+  color: #884cf8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 3px;
+  font-size: 0.8rem;
+  font-weight: 500;
+}
+
+.explore-heading {
+  text-align: center;
+}
+
+.ages {
+  cursor: pointer;
+}
+
+.ages-bg {
+  background-color: #884cf8;
+  color: white;
+}
+
+.subscribe-here {
+  width: 160px;
+  height: 40px;
+  border: none;
+  background-color: #7125ff;
+  color: white;
+  border-radius: 5px;
+  font-weight: 400;
+  font-size: 0.9rem;
+  cursor: pointer;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 500;
+}
+
+.journeyboxes {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.journeybox {
+  width: 250px;
+  height: 300px;
+  background: #1abafa49;
+  box-shadow: 0px 4px 20px rgba(10, 0, 72, 0.1);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.imgbox {
+  height: 60%;
+  margin-bottom: -5px;
+}
+
+.one {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+  object-position: center;
+}
+
+.btm-box {
+  height: 40%;
+  width: 100%;
+  /* background-image: url('../../../../Assets/bottombox.png'); */
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.spark {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.studio {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  width: 80%;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.rows {
+  display: flex;
+  flex-direction: row;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 8px;
+  color: #ffffffda;
+  gap: 10px;
+}
+
+.rows p {
+  background-color: rgba(238, 238, 238, 0.192);
+  padding: 5px;
+  border-radius: 20px;
+}
+
+@media all and (max-width: 1000px) {
+  .agegroups {
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+  }
+  .explore-hero {
+    width: 90%;
+  }
+}
+
+@media all and (max-width: 850px) {
+  .explore-hero {
+    width: 70%;
+  }
+  .three {
+    display: none;
+  }
+}
+
+@media all and (max-width: 700px) {
+  .explore-container {
+    height: 100vh;
+  }
+  .explore-hero {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .explore-heading {
+    font-size: 0.8rem;
+  }
+}
+
+@media all and (max-width: 600px) {
+  .explore-hero {
+    width: 100%;
+  }
+  .ages {
+    width: 80px;
+    height: 35px;
+  }
+  .agegroups {
+    gap: 10px;
+  }
+  .journeyboxes {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .two {
+    display: none;
+  }
+}

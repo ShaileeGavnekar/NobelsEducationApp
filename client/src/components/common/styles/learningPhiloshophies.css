@@ -1,0 +1,156 @@
+.learningphilosophies-container{
+    height: 60vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #0E007A;
+    margin-top: 30px;
+}
+
+.learningphilosophies-hero{
+    width: 68%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.lp-heading
+{
+    display: flex;
+    flex-direction: column;
+    height: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.8rem; 
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 600;
+    text-align: center;
+}
+
+
+
+.lp-center{
+    height: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+}
+.lp-button{
+    height: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.lp-box{
+    width: 30%;
+    height: 258px;
+    background: rgb(207, 191, 255,0.4);
+    box-shadow: 0px 4px 30px rgba(65, 75, 99, 0.1);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+}
+
+.circle{
+    height: 70px;
+    width: 70px;
+    background: rgb(104, 56, 240, 0.2);
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.gd{
+    height: 50px;
+    width: 50px;
+}
+
+.lp-hd{
+    font-family: Lato;
+    font-style: normal;
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.lp-p{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    text-align: center;
+    width: 80%;
+}
+
+.lcl1{
+    background: rgb(254, 197, 238,0.4);
+}
+
+.lcl2{
+    background: rgb(192, 237, 255, 0.5);
+}
+
+.lc1{
+    background: rgb(255, 103, 213,0.2);
+}
+
+.lc2{
+    background: rgb(26, 186, 250,0.2);
+}
+
+.whatsappbtn{
+    height: 40px;
+    width: 140px;
+    border: none;
+    background-color: #7125FF;
+    color: #FFFFFF;
+    border-radius: 6px;
+}
+
+
+@media all and (max-width:950px){
+    .learningphilosophies-hero{
+        width: 75%;
+    }
+}
+
+@media all and (max-width:750px){
+    .learningphilosophies-container{
+        height: 140vh;
+        margin-top: 30px;
+    }
+    .learningphilosophies-hero{
+        width: 100%;
+    }
+    .lp-center{
+        flex-direction: column;
+        gap: 20px;
+        height: 80%;
+    }
+    .lp-button{
+        height: 10%;
+    }
+    .lp-heading{
+        height: 10%;
+    }
+    .lp-box{
+        width: 60%;
+    }
+    
+}
+
+@media all and (max-width:500px){
+    .lp-box{
+        width: 80%;
+    }
+}
